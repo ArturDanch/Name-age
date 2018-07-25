@@ -1,9 +1,10 @@
 let todayYear = new Date();
 let year = todayYear.getFullYear();
- const getAge = (age) => {
+
+const getAge = (age) => {
     return year - age;
 };
- const nameAge = (user) => {
+const nameAge = (user) => {
     return (`I'm ${user.name}! I'm ${getAge(user.birth)} y. o. `)
 };
 
